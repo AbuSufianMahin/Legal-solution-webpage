@@ -75,9 +75,7 @@
             </div>
         </nav>
         <!-- hero banner section -->
-        <div class="hero h-[550px] lg:max-w-360 rounded-3xl overflow-hidden my-10 bg-gradient-to-b from-[#111111]/100 to-[#111111]/0"
-            style="background-image: url(images/banner.png);">
-            <div class="hero-overlay bg-opacity-60"></div>
+        <div class="hero h-[550px] lg:max-w-360 rounded-3xl overflow-hidden my-10 bg-[linear-gradient(to_right_bottom,rgba(17,17,17,1),rgba(17,17,17,0)),url('images/banner.png')]">
             <div class="hero-content text-neutral-content text-center">
                 <div class="max-w-md">
                     <h1 class="mb-5 text-5xl font-bold text-white">We Provide Effective Legal Solutions</h1>
@@ -87,7 +85,7 @@
                     </p>
                     <div class="space-y-5 space-x-2">
                         <input type="text" placeholder="Search your services"
-                            class="input input-bordered input-primary w-full max-w-xs" />
+                            class="input input-bordered w-full max-w-xs text-black" />
                         <button
                             class="font-semibold border border-[#B68C5A] text-xl text-white btn bg-primary hover:text-[#B68C5A] hover:bg-white">Search</button>
                     </div>
@@ -207,23 +205,27 @@
             <div>
                 <div class="carousel h-[50vh] lg:h-[80vh]">
 
-                    <div id="slide1" class="carousel-item relative w-full">
-                        <img src="images/slider-1.jpg" class="w-full h-full rounded-lg" />
+                    <div id="slide1" class="carousel-item relative w-full bg-radial">
+                        <img src="images/slider-1.jpg" class="w-full brightness-50" />
+                        
+                        <div class="absolute text-center max-w-225 text-white top-1/8 md:left-1/20 md:right-1/20 lg:left-1/5 lg:right-1/5 lg:top-1/5">
 
-
-                        <div class="avatar absolute left-43 top-10 md:left-100 lg:left-160 lg:top-32">
-                            <div class="w-24 border-2 border-white rounded-full">
-                                <img src="images/afiya anjum.jpeg" />
+                            <!-- avatar -->
+                            <div class="avatar">
+                                <div class="w-24 border-2 border-white rounded-full">
+                                    <img src="images/afiya anjum.jpeg" />
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="absolute text-center max-w-225 text-white top-40 lg:left-60 lg:top-60">
+                            <!-- text -->
                             <h4 class="text-2xl font-extrabold">Afiya Anjum</h4>
                             <p>Disability Rights Activist</p>
-                            <p class="p-4 lg:p-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                            <p class="p-6 lg:p-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It
                                 has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
                                 old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked
                                 up one of the more obscure Latin words, consectetur.</p>
+
+
                         </div>
 
 
@@ -236,19 +238,18 @@
 
 
                     <div id="slide2" class="carousel-item relative w-full">
-                        <img src="images/slider-2.jpg" class="w-full" />
+                        <img src="images/slider-2.jpg" class="w-full brightness-50" />
 
-                        <div class="avatar absolute left-43 top-10 md:left-100 lg:left-160 lg:top-32">
-                            <div class="w-24 border-2 border-white rounded-full">
-                                <img src="images/raya.jpg" />
+                        <div class="absolute text-center max-w-225 text-white top-1/8 md:left-1/20 md:right-1/20 lg:left-1/5 lg:right-1/5 lg:top-1/5">
+                            <div class="avatar">
+                                <div class="w-24 border-2 border-white rounded-full">
+                                    <img src="images/raya.jpg"/>
+                                </div>
                             </div>
-                        </div>
-
-                        <div class="absolute text-center max-w-225 text-white top-40 lg:left-60 lg:top-60">
                             <h4 class="text-2xl font-extrabold">Raya Tasnim</h4>
-                            <p>UNDP manager</p>
-                            <p class="p-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                                roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                            <p>UNDP Manger</p>
+                            <p class="p-4 lg:p-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
                                 old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked
                                 up one of the more obscure Latin words, consectetur.</p>
                         </div>
@@ -261,19 +262,18 @@
 
 
                     <div id="slide3" class="carousel-item relative w-full">
-                        <img src="images/slider-3.jpg" class="w-full" />
+                        <img src="images/slider-3.jpg" class="w-full brightness-50" />
 
-                        <div class="avatar absolute left-43 top-10 md:left-100 lg:left-160 lg:top-32">
-                            <div class="w-24 border-2 border-white rounded-full">
-                                <img src="images/rabeya.jpeg" />
+                        <div class="absolute text-center max-w-225 text-white top-1/8 md:left-1/20 md:right-1/20 lg:left-1/5 lg:right-1/5 lg:top-1/5">
+                            <div class="avatar">
+                                <div class="w-24 border-2 border-white rounded-full">
+                                    <img src="images/rabeya.jpeg" />
+                                </div>
                             </div>
-                        </div>
-
-                        <div class="absolute text-center max-w-225 text-white top-40 lg:left-60 lg:top-60">
                             <h4 class="text-2xl font-extrabold">Rabeya Bashar</h4>
                             <p>UI/UX Designer</p>
-                            <p class="p-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It has
-                                roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
+                            <p class="p-4 lg:p-8">Contrary to popular belief, Lorem Ipsum is not simply random text. It
+                                has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years
                                 old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked
                                 up one of the more obscure Latin words, consectetur.</p>
                         </div>
@@ -358,7 +358,7 @@
                     <textarea placeholder="Your Message" class="textarea textarea-lg w-full bg-[#F3F3F3]"></textarea>
 
                     <button
-                        class="btn w-full bg-primary text-white hover:text-[#B68C5A] hover:bg-white sm:btn-sm md:btn-md lg:btn-lg">Send
+                        class="btn bg-primary text-white btn-lg hover:text-[#B68C5A] hover:bg-white">Send
                         Message</button>
                 </div>
             </div>
@@ -463,7 +463,7 @@
                     <div class="join">
                         <input type="text" placeholder="Email Address" class="input input-bordered join-item" />
                         <div class="join-item">
-                            <button class="btn bg-primary border-[#B68C5A] hover:bg-[#B68C5A]"><img src="images/subscribe.png" alt=""></button>
+                            <button class="btn bg-primary relative -translate-x-1 border-[#B68C5A] hover:bg-[#B68C5A]"><img src="images/subscribe.png" alt=""></button>
                         </div>
                     </div>
                 </fieldset>
